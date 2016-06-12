@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  WXMovie
+//
+//  Created by apple on 16/3/29.
+//  Copyright © 2016年 wxhl. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIImageView+WebCache.h"
+#import "UIViewExt.h"
+#import "MBProgressHUD.h"
+#import "WXDataService.h"
+#import "UIView+ViewController.h"
+//播放视频
+#import <AVKit/AVKit.h>
+#import <AVFoundation/AVFoundation.h>
+
+
+
+#define KScreenWidth [UIScreen mainScreen].bounds.size.width
+#define KScreenHeigth [UIScreen mainScreen].bounds.size.height
+
+#define KTableViewSeColor [UIColor colorWithWhite:0.32 alpha:1]
+#endif /* PrefixHeader_pch */
